@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gmdr1024/fe_base/issues"
   },
-  "homepage": "https://github.com/gmdr1024/fe_base#readme"
+  "homepage": "https://github.com/gmdr1024/fe_base#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13"
+  }
 }
