@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/gmdr1024/fe_base#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.13"
+    "browser-sync": "^2.26.13",
+    "nunjucks": "^3.2.2"
   }
 }
