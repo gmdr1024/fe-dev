@@ -1,4 +1,4 @@
-# fe_base
+# fe_dev
 front-end dev
 
 ## Description
@@ -15,4 +15,4 @@ front-end dev
 [gmdr1024](https://github.com/gmdr1024)
 
 ## License
-[MIT](https://github.com/gmdr1024/fe_base/blob/main/LICENSE) 
+[MIT](https://github.com/gmdr1024/fe_dev/blob/main/LICENSE) 
