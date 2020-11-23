@@ -1,5 +1,5 @@
 {
-  "name": "fe_base",
+  "name": "fe_dev",
   "version": "1.0.0",
   "description": "front-end dev",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gmdr1024/fe_base.git"
+    "url": "git+https://github.com/gmdr1024/fe_dev.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gmdr1024/fe_base/issues"
+    "url": "https://github.com/gmdr1024/fe_dev/issues"
   },
-  "homepage": "https://github.com/gmdr1024/fe_base#readme",
+  "homepage": "https://github.com/gmdr1024/fe_dev#readme",
   "devDependencies": {
     "browser-sync": "^2.26.13",
     "npm-run-all": "^4.1.5",
