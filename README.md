@@ -1,5 +1,5 @@
 # fe_dev
-front-end dev
+Web front-end dev
 
 ## Description
 
