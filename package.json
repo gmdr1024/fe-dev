@@ -6,6 +6,7 @@
   "scripts": {
     "build:css": "postcss src/**/*.css --base src/assets/css/page -d dist/css -w",
     "build:html": "nunjucks *.njk -p src -o dist -w",
+    "build:js": "parcel watch src/assets/js/page/*.js -d dist/js --public-url . --no-cache --no-hmr",
     "serve": "browser-sync start -s dist -f dist --startPath index.html",
     "start": "run-p build:* serve"
   },
