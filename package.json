@@ -4,12 +4,16 @@
   "description": "Web front-end dev",
   "main": "index.js",
   "scripts": {
-    "build:css": "postcss src/**/*.css --base src/assets/css/page -d dist/css -w",
-    "build:html": "nunjucks *.njk -p src -o dist -w",
-    "build:js": "parcel watch src/assets/js/page/*.js -d dist/js --public-url . --no-cache --no-hmr",
+    "build:css": "postcss src/**/*.css --base src/assets/css/page -d dist/css",
+    "build:html": "nunjucks *.njk -p src -o dist",
+    "build:js": "parcel build src/assets/js/page/*.js -d dist/js --public-url . --no-cache",
     "clean": "rimraf dist",
     "serve": "browser-sync start -s dist -f dist --startPath index.html",
-    "start": "run-p build:* serve"
+    "start": "run-p build:* serve",
+    "watch": "run-p watch:*",
+    "watch:css": "chokidar src/**/*.css -c \"npm run build:css\"",
+    "watch:html": "chokidar src/**/*.njk -c \"npm run build:html\"",
+    "watch:js": "chokidar src/**/*.js -c \"npm run build:js\""
   },
   "repository": {
     "type": "git",
