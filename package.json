@@ -20,8 +20,8 @@
     "type": "git",
     "url": "git+https://github.com/gmdr1024/fe_dev.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "gmdr1024 (https://github.com/gmdr1024)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gmdr1024/fe_dev/issues"
   },
