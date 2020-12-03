@@ -35,6 +35,8 @@
     "parcel": "^1.12.4",
     "postcss": "^8.1.10",
     "postcss-cli": "^8.3.0",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "stylelint": "^13.8.0",
+    "stylelint-config-standard": "^20.0.0"
   }
 }
