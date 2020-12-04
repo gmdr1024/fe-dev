@@ -9,12 +9,15 @@
     "build:html": "nunjucks *.njk -p src -o dist",
     "build:js": "parcel build src/assets/js/page/*.js -d dist/js --public-url . --no-cache",
     "clean": "rimraf dist",
+    "lint": "run-s lint:*",
+    "lint:css": "stylelint src/**/*.css",
+    "lint:js": "eslint src/**/*.js",
     "serve": "browser-sync start -s dist -f dist --startPath index.html",
-    "start": "npm-run-all clean build:* -p watch serve",
+    "start": "npm-run-all clean lint build:* -p watch serve",
     "watch": "run-p watch:*",
-    "watch:css": "chokidar src/**/*.css -c \"npm run build:css\"",
+    "watch:css": "chokidar src/**/*.css -c \"run-s lint:css build:css\"",
     "watch:html": "chokidar src/**/*.njk -c \"npm run build:html\"",
-    "watch:js": "chokidar src/**/*.js -c \"npm run build:js\""
+    "watch:js": "chokidar src/**/*.js -c \"run-s lint:js build:js\""
   },
   "repository": {
     "type": "git",
