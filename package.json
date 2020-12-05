@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "run-p build:*",
-    "build:css": "postcss src/assets/css/*.css -d dist/css",
+    "build:css": "postcss src/assets/css/*.css -u postcss-import -d dist/css",
     "build:html": "nunjucks *.njk -p src -o dist",
     "build:js": "parcel build src/assets/js/*.js -d dist/js --public-url . --no-cache",
     "clean": "rimraf dist",
@@ -38,6 +38,7 @@
     "parcel": "^1.12.4",
     "postcss": "^8.1.10",
     "postcss-cli": "^8.3.0",
+    "postcss-import": "^13.0.0",
     "rimraf": "^3.0.2",
     "stylelint": "^13.8.0",
     "stylelint-config-standard": "^20.0.0"
