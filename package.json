@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "run-p build:*",
-    "build:css": "postcss src/**/*.css --base src/assets/css/page -d dist/css",
+    "build:css": "postcss src/assets/css/*.css -d dist/css",
     "build:html": "nunjucks *.njk -p src -o dist",
-    "build:js": "parcel build src/assets/js/page/*.js -d dist/js --public-url . --no-cache",
+    "build:js": "parcel build src/assets/js/*.js -d dist/js --public-url . --no-cache",
     "clean": "rimraf dist",
     "lint": "run-s lint:*",
     "lint:css": "stylelint src/**/*.css",
