@@ -8,6 +8,7 @@
     "build:css": "postcss src/assets/css/*.css -u postcss-import autoprefixer -d dist/css",
     "build:html": "nunjucks *.njk -p src -o dist",
     "build:js": "parcel build src/assets/js/*.js -d dist/js --public-url .",
+    "build:img": "imagemin src/assets/img/* -o dist/img",
     "clean": "rimraf dist",
     "lint": "run-s lint:*",
     "lint:css": "stylelint src/**/*.css",
