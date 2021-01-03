@@ -30,10 +30,13 @@ Node.js 14.15.x
 
 ## Install
 1. [Download code](https://github.com/gmdr1024/fe_dev/archive/main.zip)
-2. `npm i`
+2. `npm i` under `fe_dev`
 
 ## Usage
 `npm start`
+
+## Re-use
+Copy code in `fe_dev`
 
 ## Author
 [gmdr1024](https://github.com/gmdr1024)
