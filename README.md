@@ -42,4 +42,4 @@ Copy code in `fe_dev`
 [gmdr1024](https://github.com/gmdr1024)
 
 ## License
-[MIT](https://github.com/gmdr1024/fe_dev/blob/main/LICENSE) 
+[CC0](https://github.com/gmdr1024/fe_dev/blob/main/LICENSE) 
