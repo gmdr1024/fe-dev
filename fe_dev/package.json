@@ -1,8 +1,7 @@
 {
-  "name": "fe_dev",
-  "version": "1.0.0",
-  "description": "Web front-end dev",
-  "main": "index.js",
+  "name": "foo",
+  "version": "0.0.1",
+  "description": "foo",
   "scripts": {
     "build": "run-p build:*",
     "build:css": "postcss src/assets/css/*.css -u postcss-import autoprefixer -d dist/css",
@@ -22,14 +21,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gmdr1024/fe_dev.git"
+    "url": "git+https://example.com/user_name/repository_name.git"
   },
-  "author": "gmdr1024 (https://github.com/gmdr1024)",
-  "license": "MIT",
+  "author": "user_name (https://example.com/user_name)",
+  "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/gmdr1024/fe_dev/issues"
+    "url": "https://example.com/user_name/repository_name/issues"
   },
-  "homepage": "https://github.com/gmdr1024/fe_dev#readme",
+  "homepage": "https://example.com/user_name/repository_name#readme",
   "devDependencies": {
     "autoprefixer": "^10.0.4",
     "browser-sync": "^2.26.13",
@@ -45,5 +44,20 @@
     "rimraf": "^3.0.2",
     "stylelint": "^13.8.0",
     "stylelint-config-standard": "^20.0.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 12,
+      "sourceType": "module"
+    },
+    "rules": {}
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard"
   }
 }
