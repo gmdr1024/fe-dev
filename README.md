@@ -1,4 +1,4 @@
-# fe_dev
+# fe-dev
 Web front-end dev
 
 ## Description
@@ -29,17 +29,17 @@ Node.js 14.15.x
 - [EditorConfig](https://editorconfig.org/)
 
 ## Install
-1. [Download code](https://github.com/gmdr1024/fe_dev/archive/main.zip)
-2. `npm i` under `fe_dev`
+1. [Download code](https://github.com/gmdr1024/fe-dev/archive/main.zip)
+2. `npm i` under `fe-dev`
 
 ## Usage
 `npm start`
 
 ## Re-use
-Copy code in `fe_dev`
+Copy code in `fe-dev`
 
 ## Author
 [gmdr1024](https://github.com/gmdr1024)
 
 ## License
-[CC0](https://github.com/gmdr1024/fe_dev/blob/main/LICENSE) 
+[CC0](https://github.com/gmdr1024/fe-dev/blob/main/LICENSE) 
